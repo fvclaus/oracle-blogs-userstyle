@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name           OracleBlogsPrintStyle
+@namespace      https://github.com/fvclaus
+@version        1.0.0
+@description    Improved the print style on oracle blogs
+@author         Frederik Claus <f.v.claus@googlemail.com>
+==/UserStyle== */
+
+@-moz-document domain('blogs.oracle.com') {
+	@media print {
+      /* Remove outer margin and padding. Print dialog can insert default margin */
+      .rc81w1, .rc84w1 {
+          padding: 0 0 0 0 !important;
+          margin: 0 0 0 0 !important;
+      }
+      /* position: relative causes text to be cut off on page breaks */
+      .scs-component-content {
+          display: block !important;
+          position: static !important;
+      }
+      /* Avoid code from being cut off */
+      code {
+          white-space: pre-wrap !important;
+      }
+      .ocode {
+          margin: 0.5em 0 0.5em 0 !important;
+      }                 
+      h2 {
+          margin: 1em 0 1.2em !important;
+      }
+      /* Article title */
+      .rc81 {
+          padding-bottom: 0.5em !important;
+      }
+      /* Social media buttons */
+      .rc86 {
+          display: none !important;
+      }
+      /* Copy code button */
+      .ocode-bttn {
+          display: none !important;
+      }
+      /* Author */
+      .rc84v2 {
+          display: none !important;
+      }
+      /* Other articles */ 
+      .rc83 {
+          display: none !important;
+      }
+      #recent-posts {
+          display: none !important;
+      }
+      /* Footer */
+      .u10 {
+          display: none !important;
+      }
+      /* Header */
+      .rh03 {
+          display: none !important;
+      } 
+      .u18 {
+          display: none !important;
+      }
+  }
+}
