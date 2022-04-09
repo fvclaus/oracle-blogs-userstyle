@@ -1,12 +1,10 @@
 <img src="doc/logo.png" width="200">
 
 # Oracle Blogs Userstyle
-Userstyle to improve the print style of Oracle Blogs, because I prefer reading printed material.
-
-
+Userstyle to add a `@media print` style for Oracle Blogs, because I prefer reading printed PDF versions of the article. I used to print the Java Magine before they migrated to Oracle Blogs. Some articles have a `Download a PDF of this article` link, but the PDF suffers from basically the same issues as the `Ctrl+P` version of the article.
 ## Installation instructions
-- Install using Stylish: https://userstyles.org/styles/236097/oracle-blogs-improved-print-style
-- Install using Stylus: https://userstyles.world/style/4081/oracle-blogs-improved-print-style
+- Install using Stylish: https://userstyles.org/styles/236097/oracle-blogs-improved-print-pdf-style
+- Install using Stylus: https://userstyles.world/style/4081/oracle-blogs-improved-print-pdf-style
 
 ## Whitespace improvements
 - Removes empty first page
