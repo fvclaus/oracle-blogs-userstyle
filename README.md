@@ -3,8 +3,8 @@ Userstyle to improve the print style of Oracle Blogs, because I prefer reading p
 
 
 ## Install instructions
-Install using Stylish: https://userstyles.org/styles/236097/oracle-blogs-improved-print-style
-Install using Stylus: https://userstyles.world/style/4081/oracle-blogs-improved-print-style
+- Install using Stylish: https://userstyles.org/styles/236097/oracle-blogs-improved-print-style
+- Install using Stylus: https://userstyles.world/style/4081/oracle-blogs-improved-print-style
 
 ## Whitespace improvements
 - Removes empty first page
